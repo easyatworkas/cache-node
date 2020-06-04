@@ -1,0 +1,7 @@
+{
+  "name": "@easyatwork/cache",
+  "version": "0.1.0",
+  "description": "Simple cache library.",
+  "author": "Jim C K Flaten <jim@easyatwork.com>",
+  "main": "cache.js"
+}
