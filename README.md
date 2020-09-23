@@ -14,7 +14,7 @@ const Cache = require('@easyatwork/cache');
 let cache = new Cache();
 
 // Stale after 60 seconds. Expires after 3600 seconds.
-let item = cache.get('foo', () => 'bar', 60, 3600);
+let item = await cache.get('foo', () => 'bar', 60, 3600);
 
 // "bar"
 console.log(item.value);
